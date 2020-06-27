@@ -20,10 +20,10 @@ int main(int argc, char *argv[])
     param.param_set(param_id, param_value); // Here we have set RTL altitude = 5
     
     param.param_get(param_id, param_value);
-    std::cout << "Parameter value: " << param_value << std::endl; // we have requested RTL altitude from vecicle
+    std::cout << "Parameter value: " << param_value << std::endl; // we have requested RTL altitude from vehicle
     
     std::string param_value1 = "";
     param.param_get("RTL_LOIT_TIME",param_value1);
-    std::cout << "Parameter value: " << param_value1 << std::endl; // we have requested RTL loiter time from vecicle
+    std::cout << "Parameter value: " << param_value1 << std::endl; // we have requested RTL loiter time from vehicle
 
 }
